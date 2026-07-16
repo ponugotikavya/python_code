@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Kavyaraosarees</title>
+
+<link rel="stylesheet" href="{{ url_for('static',filename='style.css')}}">
+
+</head>
+
+<body>
+
+<h1>Kavyaraosarees</h1>
+
+<h2>Welcome to our Saree Collection</h2>
+
+<a href="/collection">View Collection</a>
+
+<br><br>
+
+<a href="/contact">Contact Us</a>
+
+</body>
+
+</html>

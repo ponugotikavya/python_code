@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Saree Collection</title>
+
+<link rel="stylesheet" href="{{ url_for('static',filename='style.css')}}">
+
+</head>
+
+<body>
+
+<h1>Latest Sarees</h1>
+
+<table>
+
+<tr>
+
+<th>Saree</th>
+
+<th>Price</th>
+
+</tr>
+
+{% for saree in sarees %}
+
+<tr>
+
+<td>{{ saree.name }}</td>
+
+<td>{{ saree.price }}</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+<br>
+
+<a href="/">Home</a>
+
+</body>
+
+</html>
